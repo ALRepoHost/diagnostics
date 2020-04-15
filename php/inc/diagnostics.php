@@ -98,7 +98,7 @@ class diagnostics {
     // Make changes ONLY when you know EXACTLY what you are doing and what are possible consequences.
     // Collapsed by default
     function showPhpInfo(){
-        phpinfo(INFO_CREDITS);
+        phpinfo(INFO_LICENSE);
     }
 }
 
