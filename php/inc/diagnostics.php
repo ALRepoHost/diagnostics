@@ -2,7 +2,26 @@
 
 class diagnostics {
 
-    function runAllTests(){
+    function runAllRecursively(){
+        $nazwyFunkcji = Array(
+            "runAllTests",
+            "getUserAgent",
+            "getCurrentWorkingDirectories",
+            "getCurrentUser",
+            "getInitialPhpConfiguration",
+            "getDeclaredInterfaces",
+            "pingWebSiteWithCURL",
+            "pingWebSiteWithSystemToolSet",
+            "getFrameWorkData",
+            "showPhpInfo"
+        );
+
+        for ($i=0; $i < count($nazwyFunkcji); $i++){
+            echo '<br>'.$i.':: Function name: '.$nazwyFunkcji[$i];
+        }  
+    }
+
+        function runAllTests(){
         $this->getUserAgent();
         $this->getCurrentWorkingDirectories();
         $this->getCurrentUser();
