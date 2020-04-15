@@ -1,2 +1,2 @@
 # diagnostics
-Prosty szkielet aplikacji diagnostycznej. 
+Prosty szkielet aplikacji diagnostycznej. Napisany w PHP
