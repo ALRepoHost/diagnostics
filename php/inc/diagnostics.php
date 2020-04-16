@@ -1,5 +1,19 @@
 <?php
 /*
+* Główne funkcje diagnostyczne.
+* @author: macfanpl
+*
+* Zwróć uwagę na komentarze przy poszczególnych funcjach.
+* 
+* Jak uzywac?
+*============
+*
+* Wywołaj odpowiednią funkcję z określonego miejsca w pliku index.php
+* W pliku index.php szukaj miejsca z odpowiednim komentarzem.
+*
+* Istnieje mozliwość wywołania tzw. funkcji zbiorczej.
+* Zwróć jednak uwagę, iz funkcja ta nie wywołuje funkcji oznaczonych jako
+* niebezpieczne (dangerous).
 */
 class diagnostics {
 
