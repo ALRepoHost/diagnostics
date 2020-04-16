@@ -18,6 +18,10 @@
 */
 class diagnostics {
 
+    /*
+    Wywołuje wszystkie funkcje poza tymi, które są oznaczone jako
+    niebezpieczne
+    */
     function runAllRecursively(){
         $nazwyFunkcji = Array(
             "runAllTests",
