@@ -1,8 +1,9 @@
+<?php
+
 /*
 Globalna konfiguracja oraz funkcje wykorzystywane globalnie
 @author: macfanpl
 */
-<?php
 class globalConfig {
 
     function redirectionToBing(){
