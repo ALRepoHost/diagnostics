@@ -1,5 +1,21 @@
 <?php
-
+/*
+* Główne funkcje diagnostyczne.
+* @author: macfanpl
+*
+* Zwróć uwagę na komentarze przy poszczególnych funcjach.
+* 
+* ===========
+* Jak uzywac?
+* ===========
+*
+* Wywołaj odpowiednią funkcję z określonego miejsca w pliku index.php
+* W pliku index.php szukaj miejsca z odpowiednim komentarzem.
+*
+* Istnieje mozliwość wywołania tzw. funkcji zbiorczej.
+* Zwróć jednak uwagę, iz funkcja ta nie wywołuje funkcji oznaczonych jako
+* niebezpieczne (dangerous).
+*/
 class diagnostics {
 
     function runAllRecursively(){
@@ -59,15 +75,20 @@ class diagnostics {
         echo $option.' = <b>'.$value.'</b><br>';
     }
 
+    /*
+    * Funkcja nieuzywana
+    */
     function getDeclaredInterfaces(){
         foreach (get_declared_interfaces() as $key => $value) {
             echo $key.' = '.$value.'<br>';
         }
     }
 
-
-    // Ping specified website using cURL library.
-    // Windows/Linux only.
+    /*
+    Funkcja pinguje określoną stronę web (na porcie :80) przy uzyciu
+    biblioteki cURL
+    Systemy: Windows oraz Linux
+    */
     function pingWebSiteWithCURL(){
         $url = "https://www.google.com";
         $c = curl_init($url);
@@ -85,37 +106,48 @@ class diagnostics {
         }
     }
 
-    // Ping specified website using built-in ping command line tool.
-    // macOS only.
+    /*
+    Funkcja pinguje określoną stronę web (na porcie :80) przy uzyciu
+    mechanizmu systemowego.
+    System: macOS
+    */
     function pingWebSiteWithSystemToolSet(){
         system("ping -c 3 www.google.com");
     }
 
-    // PHP =< 5.6 ONLY !!!
+    // PHP =< 5.6 !!!
     function getMagicQuotes(){
         echo get_magic_quotes_runtime();
     }
 
-    // Invoker for the unitConverter() function.
-    // Use with PHP =< 5.x
-    // Collapsed by default
+    /*
+    Funkcja wywoławcza dla kolejnej funkcji (unitConverter())
+    */
     function getFrameWorkData(){
         $this->unitConverter(250);
     }
 
-    // For use with getFrameWorkData() function ONLY.
-    // DO NOT use it as standalone function = DO NOT call it directly as it will fail
-    // Collapsed by default
+    /*
+    Funkcja konwertująca jednostki.
+    Nie wywołuj jej jako samodzielnej funkcji.
+    */
     function unitConverter($unitToBeConverted){
         //$convertedToString = (string)$unitToBeConverted;
         $convertedToString = strval($unitToBeConverted);
         echo $convertedToString;
     }
 
-    // Warming: extremely dangerous function :: USE WITH CARE
-    // For available values, please see https://www.php.net/manual/en/function.phpinfo.php
-    // Make changes ONLY when you know EXACTLY what you are doing and what are possible consequences.
-    // Collapsed by default
+    /*
+    ================================================================
+    UWAGA -- Funkcja potencjalnie niebezpieczna; uzywaj ostronie (!)
+    ================================================================
+
+    Pokazuje rózne wrazliwe dane dotyczące serwera zarówno fizycznego
+    jak i webowego/php.
+
+    Odnośnie mozliwych parametrów, odwołaj się do oficjalnej dokumentacji
+    języka PHP: https://www.php.net/manual/en/function.phpinfo.php
+    */
     function showPhpInfo(){
         phpinfo(INFO_LICENSE);
     }
