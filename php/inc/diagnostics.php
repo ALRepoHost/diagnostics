@@ -33,7 +33,6 @@ class diagnostics {
             "pingWebSiteWithCURL",
             "pingWebSiteWithSystemToolSet",
             "getFrameWorkData",
-            "showPhpInfo"
         );
 
         for ($i=0; $i < count($nazwyFunkcji); $i++){
