@@ -63,6 +63,7 @@ class diagnostics {
         }
     }
 
+    // Uzyskuje nazwę oraz UID aktualnego uzytkownika web ( = klienta serwera webowego)
     function getCurrentUser(){
         echo '<br>Currently logged in user: '.get_current_user().'<br>';
     }
