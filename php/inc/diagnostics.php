@@ -32,7 +32,7 @@ class diagnostics {
             "getDeclaredInterfaces",
             "pingWebSiteWithCURL",
             "pingWebSiteWithSystemToolSet",
-            "getFrameWorkData",
+            "getFrameWorkData"
         );
 
         for ($i=0; $i < count($nazwyFunkcji); $i++){
