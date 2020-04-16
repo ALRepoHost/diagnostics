@@ -6,3 +6,6 @@
 **16-04-2020**
 * złączenie gałęzi **runAllRecursively** z gałęzią **master**
 * nowa gałąź **comments**
+* komentarze zostały przetłumaczone na polski oraz uzupełnione
+* **(release)** 0.1-beta-1
+* **(release)** 0.1-beta-2
