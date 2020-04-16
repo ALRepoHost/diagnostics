@@ -8,4 +8,6 @@
 * nowa gałąź **comments**
 * komentarze zostały przetłumaczone na polski oraz uzupełnione
 * **(release)** 0.1-beta-1
+* drobne poprawki
+* złączenie gałęzi **comments** z **master**
 * **(release)** 0.1-beta-2
