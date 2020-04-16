@@ -12,4 +12,4 @@
 * złączenie gałęzi **comments** z **master**
 * **(release)** 0.1-beta-2
 * usunięcie przecinka po ostatnim elemencie tablicy (Array) co blokowało działanie funkcji (plik diagnostics.php)
-* **release** 0.1-beta-3
+* **(release)** 0.1-beta-3
