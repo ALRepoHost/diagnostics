@@ -41,14 +41,6 @@ class diagnostics {
         }  
     }
 
-        function runAllTests(){
-        $this->getUserAgent();
-        $this->getCurrentWorkingDirectories();
-        $this->getCurrentUser();
-        $this->getInitialPhpConfiguredValues();
-        $this->getDeclaredInterfaces();
-    }
-
     function getUserAgent(){
         echo $_SERVER['HTTP_USER_AGENT'];
     }
