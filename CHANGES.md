@@ -15,3 +15,4 @@
 * **(release)** 0.1-beta-3
 * nowy właściciel repozytorium (**ALRepoHost**)
 * nowy ignorowany plik
+* naprawiony commit w gałęzi **comments**
