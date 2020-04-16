@@ -41,10 +41,12 @@ class diagnostics {
         }  
     }
 
+    // Uzyskuje user-agent od przeglądarki uzytkownika
     function getUserAgent(){
         echo $_SERVER['HTTP_USER_AGENT'];
     }
 
+    // Uzyskuje aktualny katalog pracy od systemu uzytkownika
     function getCurrentWorkingDirectories(){
 
         // Definicja zmiennych
