@@ -14,3 +14,4 @@
 * usunięcie przecinka po ostatnim elemencie tablicy (Array) co blokowało działanie funkcji (plik diagnostics.php)
 * **(release)** 0.1-beta-3
 * nowy właściciel repozytorium (**ALRepoHost**)
+* nowy ignorowany plik
