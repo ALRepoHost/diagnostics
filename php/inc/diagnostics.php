@@ -18,6 +18,10 @@
 */
 class diagnostics {
 
+    /*
+    Wywołuje wszystkie funkcje poza tymi, które są oznaczone jako
+    niebezpieczne
+    */
     function runAllRecursively(){
         $nazwyFunkcji = Array(
             "runAllTests",
@@ -37,18 +41,12 @@ class diagnostics {
         }  
     }
 
-        function runAllTests(){
-        $this->getUserAgent();
-        $this->getCurrentWorkingDirectories();
-        $this->getCurrentUser();
-        $this->getInitialPhpConfiguredValues();
-        $this->getDeclaredInterfaces();
-    }
-
+    // Uzyskuje user-agent od przeglądarki uzytkownika
     function getUserAgent(){
         echo $_SERVER['HTTP_USER_AGENT'];
     }
 
+    // Uzyskuje aktualny katalog pracy od systemu uzytkownika
     function getCurrentWorkingDirectories(){
 
         // Definicja zmiennych
@@ -65,6 +63,7 @@ class diagnostics {
         }
     }
 
+    // Uzyskuje nazwę oraz UID aktualnego uzytkownika web ( = klienta serwera webowego)
     function getCurrentUser(){
         echo '<br>Currently logged in user: '.get_current_user().'<br>';
     }
