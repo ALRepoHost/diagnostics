@@ -16,4 +16,4 @@
 * nowy właściciel repozytorium (**ALRepoHost**)
 * nowy ignorowany plik
 * naprawiony commit w gałęzi **comments**
-* usunięcie labelera
+

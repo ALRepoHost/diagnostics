@@ -149,6 +149,21 @@ class diagnostics {
     function showPhpInfo(){
         phpinfo(INFO_LICENSE);
     }
+
+    /*
+    Funkcja zwraca IP rzeczywiste oraz - w przypadku proxy - IP serwera pośrednika.
+    @todo: ogólny helper (przewidywane 1+/2+)
+    */
+    function getServerIP(){
+        $ip = $_SERVER['REMOTE_ADDR'];
+        $forwardedIp = $_SERVER['HTTP_X_FORWARDED_FOR'];
+
+        if ((!$ip) || (!$forwardedIp)) {
+            echo 'IP is unknown';
+        } else {
+            echo 'Your IP is: '.$ip.' and is forwarded through: '.$forwardedIp;
+        }
+    }
 }
 
 ?>
