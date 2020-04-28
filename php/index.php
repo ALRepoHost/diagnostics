@@ -3,9 +3,8 @@
 /*
 * Prosty framework szkieletowy do testowania skryptów PHP.
 * @author: macfanpl
+* @version: (tag-based)
 */
-
-// Zaimportowanie plików klas
 require 'inc/diagnostics.php';
 require 'inc/global.php';
 
