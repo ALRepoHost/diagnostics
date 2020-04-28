@@ -159,6 +159,8 @@ class diagnostics {
         $forwardedIp = $_SERVER['HTTP_X_FORWARDED_FOR'];
 
         if ((!$ip) || (!$forwardedIp)) {
+
+            // @todo: powinno być die() => RFC-D017
             echo 'IP is unknown';
         } else {
             echo 'Your IP is: '.$ip.' and is forwarded through: '.$forwardedIp;
