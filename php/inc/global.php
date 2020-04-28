@@ -1,5 +1,4 @@
 <?php
-
 /*
 Globalna konfiguracja oraz funkcje wykorzystywane globalnie
 @author: macfanpl
