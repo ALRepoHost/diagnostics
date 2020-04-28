@@ -17,3 +17,6 @@
 * nowy ignorowany plik
 * naprawiony commit w gałęzi **comments**
 
+**28-04-2020**
+* dodano licencję
+
