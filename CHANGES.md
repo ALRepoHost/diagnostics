@@ -19,4 +19,5 @@
 
 **28-04-2020**
 * dodano licencję
+* dodano licencję do .gitignore
 
