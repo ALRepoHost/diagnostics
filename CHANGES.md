@@ -22,4 +22,5 @@
 * dodano licencję do .gitignore
 * dodano testową obsługę Modernizr.js
 * dodano wiadomość do konsoli
+* naprawa globalnej konfiguracji git-a
 
