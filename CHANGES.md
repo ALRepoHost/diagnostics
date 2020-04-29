@@ -20,6 +20,8 @@
 **28-04-2020**
 * dodano licencję
 * dodano licencję do .gitignore
+
+**29-04-2020**
 * dodano testową obsługę Modernizr.js
 * dodano wiadomość do konsoli
 * naprawa globalnej konfiguracji git-a
