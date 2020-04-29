@@ -22,8 +22,10 @@
 * dodano licencję do .gitignore
 
 **29-04-2020**
+* wprowadzenie pliku ustawień VSC do repozytorium
 * dodano testową obsługę Modernizr.js
 * dodano wiadomość do konsoli
 * naprawa globalnej konfiguracji git-a
 * zmiany w .gitignore
-
+* zmiana hosta (GitHub na GitLab) oraz informacja o tym na GH jak i w pliku README.md
+* tweak ustawień

@@ -10,5 +10,8 @@
     "editor.minimap.showSlider": "always",
     "editor.suggest.maxVisibleSuggestions": 6,
     "editor.suggest.showSnippets": false,
-    "editor.suggest.snippetsPreventQuickSuggestions": false
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "[markdown]": {
+        "editor.highlightActiveIndentGuide": ,
+    }
 }
