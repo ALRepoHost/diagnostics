@@ -33,3 +33,4 @@
 **30-04-2020**
 * pierwsza beta z nowego repozytorium
 * nowe tagi (do uzytku wewnetrznego)
+* dodano .lintignore dla tłumaczenia EN
