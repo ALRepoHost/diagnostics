@@ -29,3 +29,7 @@
 * zmiany w .gitignore
 * zmiana hosta (GitHub na GitLab) oraz informacja o tym na GH jak i w pliku README.md
 * tweak ustawień
+
+**30-04-2020**
+* pierwsza beta z nowego repozytorium
+* nowe tagi (do uzytku wewnetrznego)
