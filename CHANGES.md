@@ -43,3 +43,4 @@
 * nowa ściezka do downloadu
 * testowa zmiana readme.md
 * **Projekt zmienił właściciela**
+* Nowa gałąź (index-footer)
