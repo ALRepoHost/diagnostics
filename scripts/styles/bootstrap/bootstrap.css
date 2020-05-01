@@ -8248,6 +8248,10 @@ button.bg-dark:focus {
   padding: 0 !important;
 }
 
+.p-5 {
+  padding: 5 !important;
+}
+
 .pt-0,
 .py-0 {
   padding-top: 0 !important;
