@@ -33,3 +33,9 @@
 **30-04-2020**
 * pierwsza beta z nowego repozytorium
 * nowe tagi (do uzytku wewnetrznego)
+
+**01-05-2020**
+* Stylowanie (CSS::Bootstrap)
+* nowa strona główna (indesx.html)
+* zmiany w strukturze folderów (ujednolicenie nazw oraz W/F)
+* drobne zmiany w arkuszu styli Bootstrap.css
