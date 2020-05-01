@@ -1,5 +1,5 @@
 # diagnostics
 
-**Repozytorium zostało przeniesione**
+**Repozytorium poraz kolejny zostało przeniesione**
 
 Prosty szkielet aplikacji diagnostycznej. Napisany w PHP
