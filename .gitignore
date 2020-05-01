@@ -1,5 +1,6 @@
 
 php/inc/php_init_vars.php
 LICENSE
-scripts/*
+scripts/js
+scripts/py
 php/tests/utests.php

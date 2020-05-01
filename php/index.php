@@ -1,3 +1,8 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css"/>
+</head>
+<body>
 <?php
 
 /*
@@ -15,3 +20,5 @@ $gl = new globalConfig();
 // W tym miejscu wywołaj odpowiednią/zadaną funkcję z pliku diagnostics.php
 $ac->runAllRecursively();
 ?>
+</html>
+</body>
