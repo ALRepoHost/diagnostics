@@ -1,10 +1,4 @@
-<html>
-<head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css"/>
-</head>
-<body>
 <?php
-
 /*
 * Prosty framework szkieletowy do testowania skryptów PHP.
 * @author: macfanpl
