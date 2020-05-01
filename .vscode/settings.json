@@ -12,6 +12,12 @@
     "editor.suggest.showSnippets": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "[markdown]": {
-        "editor.highlightActiveIndentGuide": ,
-    }
+        "editor.highlightActiveIndentGuide":true
+    },
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.letterSpacing": 0,
+    "editor.lightbulb.enabled": true,
+    "editor.fontSize": 12,
+    "editor.fontFamily": "Monaco, monospace",
 }
