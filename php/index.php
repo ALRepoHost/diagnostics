@@ -1,5 +1,4 @@
 <?php
-
 /*
 * Prosty framework szkieletowy do testowania skryptów PHP.
 * @author: macfanpl
@@ -15,3 +14,5 @@ $gl = new globalConfig();
 // W tym miejscu wywołaj odpowiednią/zadaną funkcję z pliku diagnostics.php
 $ac->runAllRecursively();
 ?>
+</html>
+</body>
