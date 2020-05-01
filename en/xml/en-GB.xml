@@ -1,0 +1,21 @@
+<translation lang="en_GB">
+    "Prosty framework szkieletowy do testowania skryptów PHP." => "Simple, PHP based, framework for script testing",
+    "Zainicjowanie poszczególnych klas" => "Specific class initialization",
+    "W tym miejscu wywołaj odpowiednią/zadaną funkcję z pliku diagnostics.php" => "Invoke (call) desired function here",
+    "Wywołuje wszystkie funkcje poza tymi, które są oznaczone jako
+    niebezpieczne" => "Invokes all non-dangerous functions",
+    "Uzyskuje user-agent od przeglądarki uzytkownika" => "Gets user-agent string",
+    "Uzyskuje aktualny katalog pracy od systemu uzytkownika" => "Gets current working directory",
+    "Definicja zmiennych" => "Variables definitions",
+    "Logika" => "Functions' logic",
+    "Uzyskuje nazwę oraz UID aktualnego uzytkownika web ( = klienta serwera webowego)" => "Gets user name and UID",
+    "NIE umieszczaj odwołania do poniszej funkcji na serwerach public-facing !!!" => "DO NOT call this function directly (especially on public-facing servers",
+    "Funkcja nieuzywana" => "Unused function",
+    "Funkcja pinguje określoną stronę web (na porcie :80) przy uzyciu biblioteki cURL. Systemy: Windows oraz Linux" => "Pings specific webpage (:80) using cURL library. OS: Windows and Linux",
+    "Funkcja pinguje określoną stronę web (na porcie :80) przy uzyciu mechanizmu systemowego. System: macOS" => "Pings specific webpage (:80) using builtin ping function. OS: macOS.",
+    "PHP =< 5.6 !!!" => "Requires PHP =< 5.6 !!!",
+    "Funkcja wywoławcza dla kolejnej funkcji" => "Invokes next function",
+    "Funkcja konwertująca jednostki. Nie wywołuj jej jako samodzielnej funkcji." => "Unit converter. Do not invoke it directly.",
+    "Pokazuje rózne wrazliwe dane dotyczące serwera zarówno fizycznego jak i webowego/php." => "Shows sensitive data regarding both physical server as well as software deamon(s)",
+    "Funkcja zwraca IP rzeczywiste oraz - w przypadku proxy - IP serwera pośrednika. @todo: ogólny helper (przewidywane 1+/2+)" => "Returns real IP as well as proxy-gate IP (if user behind proxy)"
+</translation>
