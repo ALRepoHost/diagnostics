@@ -359,13 +359,14 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   padding: 2 !important;
-  padding-top: 2 !important;
+  padding-top: 0 !important;
   font-weight: 500;
   line-height: 1.2;
 }
 
 h1, .h1 {
   font-size: 2.5rem;
+  font-weight: bold;
 }
 
 h2, .h2 {
