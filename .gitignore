@@ -4,3 +4,4 @@ LICENSE
 scripts/js
 scripts/py
 php/tests/utests.php
+php/tests/index.html
