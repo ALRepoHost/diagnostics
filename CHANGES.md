@@ -41,3 +41,4 @@
 * drobne zmiany w arkuszu styli Bootstrap.css
 * __Nowa wersja (0.1-publicbeta-2)__ z nowego repozytorium 
 * nowa ściezka do downloadu
+* testowa zmiana readme.md
