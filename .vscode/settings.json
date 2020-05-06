@@ -9,7 +9,7 @@
     "editor.formatOnType": true,
     "editor.minimap.showSlider": "always",
     "editor.suggest.maxVisibleSuggestions": 6,
-    "editor.suggest.showSnippets": false,
+    "editor.suggest.showSnippets": true,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "[markdown]": {
         "editor.highlightActiveIndentGuide":true
