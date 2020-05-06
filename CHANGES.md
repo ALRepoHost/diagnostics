@@ -33,3 +33,6 @@
 **30-04-2020**
 * pierwsza beta z nowego repozytorium
 * nowe tagi (do uzytku wewnetrznego)
+
+**6-05-2020**
+* dalsze prace konfiguracyjne zarówno w repo jak i w stacji dev.
