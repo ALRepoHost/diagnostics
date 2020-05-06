@@ -21,4 +21,9 @@
     "editor.lightbulb.enabled": true,
     "editor.fontSize": 12,
     "editor.fontFamily": "Monaco, monospace",
+    "markdownlint.config": {
+    "MD036": false,
+    "MD041": false,
+    "MD032": false
+    },
 }
