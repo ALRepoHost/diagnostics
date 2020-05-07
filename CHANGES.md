@@ -36,3 +36,6 @@
 
 **6-05-2020**
 * dalsze prace konfiguracyjne zarówno w repo jak i w stacji dev.
+
+**7-05-2020**
+* modyfikacje gitignore (nowe zasady oraz sekcja komentarzy)
