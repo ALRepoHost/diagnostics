@@ -1,8 +1,19 @@
-
+# exclude initiator of vars in php
 php/inc/php_init_vars.php
+
+# exclude license as its constant
 LICENSE
-scripts/js
-scripts/py
-php/tests/utests.php
-php/tests/index.html
+
+# exclude JS (subject to change)
+scripts/js/*
+
+# exclude Python (subject to change)
+scripts/py/*
+
+# Not exclude general class in Python
+!scripts/py/
+!scripts/py/general.py
+
+# Exclude some php classes and other less important stuff
+php/tests/*.php
 php/tests/updater/todo.md
