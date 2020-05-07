@@ -1,4 +1,12 @@
+/*
+Settings file for Visual Studio Code (VSC in short). This file is project-specific, meaning that there can only be one file per project.
+
+Usage: Just clone the repo as usual from within VSC. Settings should be applied automatically. In case this does not happen, just restart VSC.
+
+License: GPL v2.
+*/
 {
+    // Editor related settings
     "editor.cursorStyle": "line-thin",
     "editor.wordWrap": "on",
     "editor.wordWrapColumn": 80,
@@ -12,15 +20,17 @@
     "editor.suggest.maxVisibleSuggestions": 6,
     "editor.suggest.showSnippets": true,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "[markdown]": {
-        "editor.highlightActiveIndentGuide":true
-    },
     "editor.autoClosingBrackets": "always",
     "editor.autoClosingQuotes": "always",
     "editor.letterSpacing": 0,
     "editor.lightbulb.enabled": true,
     "editor.fontSize": 12,
     "editor.fontFamily": "Monaco, monospace",
+
+    // Markdown related settings
+    "[markdown]": {
+        "editor.highlightActiveIndentGuide": true
+    },
     "markdownlint.config": {
     "MD036": false,
     "MD041": false,
