@@ -1,6 +1,5 @@
 /*
 Settings file for Visual Studio Code (VSC in short). This file is project-specific, meaning that there can only be one file per project.
-
 Usage: Just clone the repo as usual from within VSC. Settings should be applied automatically. In case this does not happen, just restart VSC.
 
 License: GPL v2.
