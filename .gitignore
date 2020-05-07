@@ -1,9 +1,6 @@
 # exclude initiator of vars in php
 php/inc/php_init_vars.php
 
-# exclude license as its constant
-LICENSE
-
 # exclude JS (subject to change)
 scripts/js/*
 
@@ -17,3 +14,8 @@ scripts/py/*
 # Exclude some php classes and other less important stuff
 php/tests/*.php
 php/tests/updater/todo.md
+
+# Exclude constant MD (as well as other) files in rootdir ("/")
+DO-NOT-USE-SOURCETREE.md
+LICENSE
+README.md
