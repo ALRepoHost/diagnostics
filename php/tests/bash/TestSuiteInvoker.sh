@@ -1,7 +1,6 @@
 !#/bin/bash
-echo "Enviroment test suite....."
 
-# Test function
+# Test function/method
 phar_tester () {
     echo "Check test engine existance and permissions....."
     if (-f ["*.phar"]){
