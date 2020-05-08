@@ -7,7 +7,7 @@ phar_tester () {
     if (-f ["*.phar"]){
         if ("ls -alh *.phar | grep xargs" == 777){
             echo "Executing tests...."
-            command = "php -r *.php"
+            command = "php -r *.phar"
             eval $command
         } else {
             echo "Wrong permissions are set. Unable to continue"
