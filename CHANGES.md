@@ -39,3 +39,4 @@
 
 **7-05-2020**
 * modyfikacje gitignore (nowe zasady oraz sekcja komentarzy)
+* GitHub Action dla zastałych PR/Issue
