@@ -1,4 +1,3 @@
-# Oznacza jako "zastałe" PR oraz issue w których nie odnotowano aktywnosci przez okreslony czas
 name: Mark stale issues and pull requests
 
 on:
