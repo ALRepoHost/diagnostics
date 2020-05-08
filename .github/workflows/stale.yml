@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/stale@v1
       with:
-        repo-token: ${{ secrets.stalerToken }}
+        repo-token: stalerToken
         stale-issue-message: 'This issue is stalled'
         stale-pr-message: 'This PR is stalled'
         stale-issue-label: 'no-activity'
