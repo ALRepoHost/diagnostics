@@ -39,3 +39,6 @@
 
 **7-05-2020**
 * modyfikacje gitignore (nowe zasady oraz sekcja komentarzy)
+
+**8-5-2020**
+* dodanie TestInvokera w Bashu (Linux/Unix)
