@@ -42,3 +42,4 @@
 
 **8-5-2020**
 * dodanie TestInvokera w Bashu (Linux/Unix)
+* zmiana nazwy organizacji na Github
