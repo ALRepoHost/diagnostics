@@ -170,8 +170,9 @@ class diagnostics {
     }
 
     /*
-    Uzyskuje nazwę systemu operacyjnego uzytkownika który wywołał dany skrypt PHP
-    @todo dodać inne (mniej znane/uzywane) systemy
+    * Uzyskuje nazwę systemu operacyjnego uzytkownika który wywołał dany skrypt PHP
+    * @todo dodać inne (mniej znane/uzywane) systemy
+    * Źródło funkcji: https://stackoverflow.com/questions/18070154/get-operating-system-info
     */
     function getOS(){ 
 
@@ -212,7 +213,9 @@ class diagnostics {
 }
 
     /*
-    Uzyskuje nazwę przeglądarki uzytkownika wywołującego skrypt.
+    * Uzyskuje nazwę przeglądarki uzytkownika wywołującego skrypt.accordion
+    * @todo dodać inne (mniej znane/uzywane) przeglądarki
+    * Źródło funkcji: https://stackoverflow.com/questions/18070154/get-operating-system-info
     */
     function getBrowser() {
 

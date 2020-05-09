@@ -48,3 +48,4 @@
  * ujednolocenie pisowni dat w changelogu
  * naprawienie PR bash-tests >> master
  * dodanie nowych funkcji testujących (getOS() oraz getBrowser())
+ * modyfikacja komentarzy oraz dodanie źródeł
