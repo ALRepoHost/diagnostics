@@ -8,4 +8,4 @@
 
 ## Reporting a Vulnerability
 
-If you find a bug (vulnerability), please **do not** create an issue. Instead, drop me an emain.
+If you find a bug (vulnerability), please **do not** create an issue. Instead, [use this form](https://github.com/devorgint/diagnostics/security/advisories/new) to open security advisory and have a private chat with team.
