@@ -35,6 +35,9 @@
 * nowe tagi (do uzytku wewnetrznego)
 
 **6-05-2020**
+* powrót repo na GitHub
+* usunięcie konta na GitLabie
+* zmiany personalne w organizacji na GitHub,
 * dalsze prace konfiguracyjne zarówno w repo jak i w stacji dev.
 
 **7-05-2020**
