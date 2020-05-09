@@ -47,3 +47,4 @@
  **9-05-2020**
  * ujednolocenie pisowni dat w changelogu
  * naprawienie PR bash-tests >> master
+ * dodanie nowych funkcji testujących (getOS() oraz getBrowser())
