@@ -52,3 +52,4 @@
  * naprawienie PR bash-tests >> master
  * dodanie nowych funkcji testujących (getOS() oraz getBrowser())
  * modyfikacja komentarzy oraz dodanie źródeł
+ * zniesienie obowiązkowego review PR
