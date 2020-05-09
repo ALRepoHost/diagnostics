@@ -49,3 +49,4 @@
  * naprawienie PR bash-tests >> master
  * dodanie nowych funkcji testujących (getOS() oraz getBrowser())
  * modyfikacja komentarzy oraz dodanie źródeł
+ * dodanie właścicieli kodu (CODEOWNERS)
