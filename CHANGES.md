@@ -39,3 +39,11 @@
 
 **7-05-2020**
 * modyfikacje gitignore (nowe zasady oraz sekcja komentarzy)
+
+**8-05-2020**
+ * dodanie TestInvokera w Bashu (Linux/Unix)
+ * zmiana nazwy organizacji na Github
+
+ **9-05-2020**
+ * ujednolocenie pisowni dat w changelogu
+ * naprawienie PR bash-tests >> master
