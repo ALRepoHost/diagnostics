@@ -42,7 +42,7 @@
   box-sizing: border-box;
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+article, aside, figcaption, figure, header, hgroup, main, nav, section {
   display: block;
   text-align: center;
   font-family: 'Courier New', Courier, monospace !important;
@@ -65,6 +65,10 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff !important;
+}
+
+footer {
+
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
