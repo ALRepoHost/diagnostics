@@ -12,7 +12,7 @@ $ac = new diagnostics();
 $gl = new globalConfig();
 
 // W tym miejscu wywołaj odpowiednią/zadaną funkcję z pliku diagnostics.php
-$ac->runAllRecursively();
+$ac->getCurrentWorkingDirectories();
 ?>
 </html>
 </body>
