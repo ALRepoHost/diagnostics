@@ -6,6 +6,7 @@
 $font-standard: 18px;
 $no-decoration: none;
 $left-align: left;
+$center-align: center;
 $weight: 300 !important;
 
 // h1 vars
@@ -18,7 +19,7 @@ body {
     @at-root p {
         font-size: $font-standard;
         text-decoration: $no-decoration;
-        text-align: $left-align;
+        text-align: $center-align;
     }
 
     @at-root h1 {
