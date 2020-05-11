@@ -53,3 +53,6 @@
  * dodanie nowych funkcji testujących (getOS() oraz getBrowser())
  * modyfikacja komentarzy oraz dodanie źródeł
  * zniesienie obowiązkowego review PR
+
+**11-05-2020**
+* zmiana środowiska developerskiego (własny serwer)
