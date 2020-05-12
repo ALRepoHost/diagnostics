@@ -1,6 +1,10 @@
-"dependencies":{
-    "minimist": ">=1.2.3",
-    "acorn": ">=5.7.4",
-    "serialize-javascript": ">=2.1.1",
-    "kind-of": ">=6.0.3"
+{
+       "dependencies": {
+
+    "name": "name",
+    "description": "description",
+    "authors": "author",
+    "version": "1.0.0",
+    "main": "pathToMain"
+       }
 }
