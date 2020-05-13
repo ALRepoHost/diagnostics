@@ -4,3 +4,5 @@ scripts/js/modern.js
 scripts/js/_brokers/LoginBroker.js
 scripts/py/_crypto/loginServices.py
 CNAME
+.vscode/*.pml
+.vscode/*.json
