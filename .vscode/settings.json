@@ -25,6 +25,11 @@ License: GPL v2.
     "editor.lightbulb.enabled": true,
     "editor.fontSize": 12,
     "editor.fontFamily": "Monaco, monospace",
+    "workbench.fontAliasing": "auto",
+    "workbench.statusBar.visible": true,
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.closeEmptyGroups": true,
+    "workbench.editor.enablePreview": true,
 
     // Markdown related settings
     "[markdown]": {
