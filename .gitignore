@@ -6,3 +6,4 @@ scripts/py/_crypto/loginServices.py
 CNAME
 .vscode/*.pml
 .vscode/*.json
+php/tests/bash/pay.sh
