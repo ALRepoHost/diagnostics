@@ -1,0 +1,24 @@
+/*
+Welcome to Custom CSS!
+
+To learn how this works, see https://wp.me/PEmnE-Bt
+*/
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+a {
+    color: black;
+    font-style: italic;
+}
