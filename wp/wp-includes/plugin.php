@@ -317,7 +317,6 @@ function remove_all_filters( $tag, $priority = false ) {
  * @since 2.5.0
  *
  * @global array $wp_current_filter Stores the list of current filters with the current one last
- *
  * @return string Hook name of the current filter or action.
  */
 function current_filter() {
@@ -329,7 +328,6 @@ function current_filter() {
  * Retrieve the name of the current action.
  *
  * @since 3.9.0
- *
  * @return string Hook name of the current action.
  */
 function current_action() {
@@ -436,7 +434,6 @@ function add_action( $tag, $function_to_add, $priority = 10, $accepted_args = 1 
  * @global array $wp_filter         Stores all of the filters and actions.
  * @global array $wp_actions        Increments the amount of times action was triggered.
  * @global array $wp_current_filter Stores the list of current filters with the current one last.
- *
  * @param string $tag    The name of the action to be executed.
  * @param mixed  ...$arg Optional. Additional arguments which are passed on to the
  *                       functions hooked to the action. Default empty.
@@ -474,9 +471,7 @@ function do_action( $tag, ...$arg ) {
 		// Backward compatibility for PHP4-style passing of `array( &$this )` as action `$arg`.
 		$arg[0] = $arg[0][0];
 	}
-
 	$wp_filter[ $tag ]->do_action( $arg );
-
 	array_pop( $wp_current_filter );
 }
 
