@@ -13,4 +13,5 @@ class debugTest{
         $this->$delimeter = $delimeter;
     }
 }
+str_rot13
 ?>
