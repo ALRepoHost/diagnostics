@@ -10,6 +10,10 @@
         "phpunit/phpunit": "9.2.2"
     },
 
+    "autoload-dev": {
+        "phpunit/phpunit": "9.2.2"
+    },
+
     "license": "BSD",
     "keywords": [
         "diagnostics",
@@ -17,10 +21,14 @@
         "framework"
     ],
     "homepage": "http://diagnose.aws-labs.pl",
-    "funding": [
+    "authors": [
         {
-            "type": "Patreon",
-            "url": "https://www.patreon.com"
+            "name": "devorgint/wlisik",
+            "role": "Lead developer"
+        },
+        {
+            "name": "devorgint/apple-fan-pl",
+            "role": "Junior-developer"
         }
     ]
 }
