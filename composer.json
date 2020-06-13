@@ -4,7 +4,7 @@
     "version": "0.1-beta",
     "require": {
         "php": "7.3",
-        "scala": "1.0"
+        "scala/scala": "2.0"
     },
 
     "require-dev": {
