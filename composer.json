@@ -15,5 +15,12 @@
         "diagnostics",
         "php",
         "framework"
+    ],
+    "homepage": "http://diagnose.aws-labs.pl",
+    "funding": [
+        {
+            "type": "Patreon",
+            "url": "https://www.patreon.com"
+        }
     ]
 }
