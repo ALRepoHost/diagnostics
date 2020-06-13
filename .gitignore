@@ -8,6 +8,7 @@ scripts/styles/bootstrap/.bootstrap-version.md
 
 # Skrypty PHP
 php/inc/logger/includes.php
+php/inc/logger/p_setup.php
 
 # Rekordy domen(-y)
 CNAME
