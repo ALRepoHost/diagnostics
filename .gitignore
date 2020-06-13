@@ -1,13 +1,19 @@
+# Skrypty
 scripts/js/disdi.js
 scripts/js/getSubscriptionName.js
 scripts/js/modern.js
 scripts/js/_brokers/LoginBroker.js
 scripts/py/_crypto/loginServices.py
+scripts/styles/bootstrap/.bootstrap-version.md
+
+# Rekordy domen(-y)
 CNAME
+
+# Konfiguracja IDE
 .vscode/*.pml
 .vscode/*.json
+
+# Testy jednostkowe Basha
 php/tests/bash/pay.sh
 php/tests/bash/n2go/rave.-a-.py
 php/tests/bash/n2go/usb.java
-scripts/styles/bootstrap/.bootstrap-version.md
-assets/web/README.md
