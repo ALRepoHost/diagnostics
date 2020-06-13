@@ -3,7 +3,7 @@
     "description": "Prosty szkielet aplikacji diagnostycznej. ",
     "version": "0.1-beta",
     "require": {
-        "php": "7.3",
+        "php": "7.3"
     },
 
     "require-dev": {
