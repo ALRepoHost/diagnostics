@@ -10,9 +10,6 @@ scripts/styles/bootstrap/.bootstrap-version.md
 php/inc/logger/includes.php
 php/inc/logger/p_setup.php
 
-# Rekordy domen(-y)
-CNAME
-
 # Konfiguracja IDE
 .vscode/*.pml
 
