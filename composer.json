@@ -1,7 +1,7 @@
 {
-    "name": "joomla/joomla-cms",
-    "description": "Home of the Joomla! Content Management System",
-    "version": "4.0-dev",
+    "name": "devorgint/diagnostics",
+    "description": "Prosty szkielet aplikacji diagnostycznej. ",
+    "version": "0.1-beta",
     "require": {
         "php": "^5.2.4|^5.3|^5.4|^5.5|^5.6"
     },
