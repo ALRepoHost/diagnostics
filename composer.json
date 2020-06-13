@@ -3,16 +3,13 @@
     "description": "Prosty szkielet aplikacji diagnostycznej. ",
     "version": "0.1-beta",
     "require": {
-        "php": "7.3"
-    },
-
-    "require-dev": {
-        "phpunit/phpunit": "9.2.2"
+        "php": "7.3",
+        "slevomat/coding-standard": "5.0",
+        "phpstan/phpstan-phpunit": "1.0"
     },
 
     "suggest": {
-        "slevomat/coding-standard": "5.0",
-        "phpstan/phpstan-phpunit": "1.0"
+
     },
 
     "autoload-dev": {
