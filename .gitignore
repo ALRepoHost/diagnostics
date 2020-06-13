@@ -23,3 +23,6 @@ php/tests/bash/n2go/usb.java
 
 # Konfiguracja GitHuba
 .github/gitpod/_config.ts
+
+# JSON
+wp/wp-includes/sodium_compat/composer.json
