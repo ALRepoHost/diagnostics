@@ -3,7 +3,7 @@
           "name": "Joomla",
           "description": "Joomla CMS is an open-source CMS thats the most powerfull one out there",
           "authors": "JoomlaTeam",
-          "version": "4.0-dev-p12",
+          "version": "4.0-dev",
           "main": "https://github.com/joomla/joomla-cms"
        }
 }
