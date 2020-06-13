@@ -1,10 +1,10 @@
 {
        "dependencies": {
 
-    "name": "name",
-    "description": "description",
-    "authors": "author",
-    "version": "1.0.0",
-    "main": "pathToMain"
+    "name": "Joomla",
+    "description": "Joomla CMS is an open-source CMS thats the most powerfull one out there",
+    "authors": "JoomlaTeam",
+    "version": "4.0-dev",
+    "main": "https://github.com/joomla/joomla-cms"
        }
 }
