@@ -5,6 +5,7 @@ scripts/js/modern.js
 scripts/js/_brokers/LoginBroker.js
 scripts/py/_crypto/loginServices.py
 scripts/styles/bootstrap/.bootstrap-version.md
+updater/modules/com-loader.rb
 
 # Skrypty PHP
 php/inc/logger/includes.php
