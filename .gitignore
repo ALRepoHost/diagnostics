@@ -1,18 +1,16 @@
 # Skrypty w innych językach niz PHP
+php/tests/*.py
 
-# Skrypty PHP
-php/inc/logger/includes.php
-php/inc/logger/p_setup.php
-
-# Konfiguracja GitHuba
+# Konfiguracja GitPod TS
 .github/gitpod/_config.ts
 
 # JSON
 wp/wp-includes/sodium_compat/composer.json
 
-# MarkDown in /sql subfolder
+# MarkDown w subfolderze sql/
 /scripts/sql/*.md
 
-# Ignore folders
+# Foldery ignorowane w całości
 md/
 php/tests/bash/
+php/inc/logger/
