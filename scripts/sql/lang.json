@@ -1,0 +1,10 @@
+{
+    "name": "SQLFiles",
+    "description": "Pliki odpowiedzialne za interakcje z bazą danych",
+    "version": "0.1",
+    "requires":{
+        "VSCode": "any",
+        "Git": "latest",
+        "Web": "any"
+    }
+}
