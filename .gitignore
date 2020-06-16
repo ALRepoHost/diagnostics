@@ -23,3 +23,6 @@ php/tests/bash/n2go/usb.java
 
 # JSON
 wp/wp-includes/sodium_compat/composer.json
+
+# MarkDown in /sql subfolder
+/scripts/sql/*.md
