@@ -38,6 +38,7 @@ License: GPL v2.
     "markdownlint.config": {
     "MD036": false,
     "MD041": false,
-    "MD032": false
+    "MD032": false,
+    "MD047": false
     },
 }
