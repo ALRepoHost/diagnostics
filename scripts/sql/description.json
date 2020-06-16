@@ -6,5 +6,15 @@
         "VSCode": "any",
         "Git": "latest",
         "Web": "any"
+    },
+    "authors":{
+        "Lead developer":{
+            "name": "macfanplx",
+            "mail": "macfanpl@interia.pl"
+        },
+        "Code-review & QA":{
+            "name": "wlisikpl",
+            "mail": "wojciechlisik@icloud.com"
+        }
     }
 }
