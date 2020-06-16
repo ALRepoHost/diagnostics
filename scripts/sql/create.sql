@@ -4,12 +4,12 @@ IF EXISTS (
     FROM
         INFORMATION_SCHEMA.ROUTINES
     WHERE
-        SPECIFIC_SCHEMA = 'dbo.pinner'
-        AND SPECIFIC_NAME = 'listTables'
-) DROP PROCEDURE dbo.pinner.listTables
+        SPECIFIC_SCHEMA = 'dbo.diagnostics'
+        AND SPECIFIC_NAME = 'dbops'
+) DROP PROCEDURE dbo.diagnostics.dbops
 GO
-    CREATE PROCEDURE dbo.pinner.listTables @param1 dbo.pinner.indexPointer int = 0,
-    @param2 dbo.pinner.pointerName varchar(20) = '{dbname:tabAlias}';
+    CREATE PROCEDURE dbo.diagnostics.dbops @param1 dbo.diagnostics.indexPointer int = 0,
+    @param2 dbo.diagnostics.pointerName varchar(20) = '{dbname:tabAlias}';
 
 AS
 SELECT
@@ -17,6 +17,6 @@ SELECT
     @param2
 GO
     -- insert correct values where needed.
-    EXECUTE dbo.pinner.listTables '@param1',
+    EXECUTE dbo.diagnostics.dbops '@param1',
     '@param2'
 GO
