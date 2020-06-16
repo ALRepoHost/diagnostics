@@ -26,3 +26,6 @@ wp/wp-includes/sodium_compat/composer.json
 
 # MarkDown in /sql subfolder
 /scripts/sql/*.md
+
+# Ignore folders
+/md
