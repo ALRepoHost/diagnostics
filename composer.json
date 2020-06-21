@@ -1,27 +1,21 @@
 {
     "name": "devorgint/diagnostics",
     "description": "Prosty szkielet aplikacji diagnostycznej. ",
+    "type": "project",
+    "readme": "inside",
     "version": "0.1-beta",
-    "require": {
-        "php": "7.3",
-        "slevomat/coding-standard": "5.0",
-        "phpstan/phpstan-phpunit": "1.0"
+    "repositories": {
+        "type": "vcs",
+        "url": "https://github.com/devorgint/diagnostics"
     },
-
-    "suggest": {
-
-    },
-
-    "autoload-dev": {
-        "phpunit/phpunit": "9.2.2"
-    },
-
+    
     "license": "BSD",
     "keywords": [
         "diagnostics",
         "php",
         "framework"
     ],
+    
     "homepage": "http://diagnose.aws-labs.pl",
     "authors": [
         {
@@ -32,5 +26,12 @@
             "name": "devorgint/apple-fan-pl",
             "role": "Junior-developer"
         }
-    ]
+    ],
+    
+    "require": {
+        "php": "7.3"
+    },
+    "require-dev": {
+        "php": "7.3"
+    }
 }
