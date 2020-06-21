@@ -14,3 +14,6 @@ wp/wp-includes/sodium_compat/composer.json
 md/
 php/tests/bash/
 php/inc/logger/
+
+# PHP
+scripts/tab-dicker.php
