@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS sites (
   id                                  SERIAL PRIMARY KEY,
-  domain                              VARCHAR(255) NOT NULL,
+  domain                              VARCHAR(20) NOT NULL,
   creation_time                       TIMESTAMP NOT NULL,
   public_headers                      JSONB NULL,
   private_headers                     JSONB NULL,
