@@ -30,7 +30,7 @@ def parse_http_equiv_headers(html: str) -> CaseInsensitiveDict:
     for meta in metas:
         if meta.has_attr('http-equiv') and meta.has_attr('content'):
             # Add support for multiple CSP policies specified via http-equiv
-            # See issue: https://github.com/mozilla/http-observatory/issues/266
+            # See issue: https://github.com/-/http-observatory/issues/266
             # Note that this is so far only done for CSP and not for other types
             # of http-equiv
             if (meta.get('http-equiv', '').lower().strip() == 'content-security-policy' and

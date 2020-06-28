@@ -11,18 +11,18 @@ class TestContribute(TestCase):
     def tearDown(self):
         self.reqs = None
 
-    def test_no_contribute_mozilla(self):
+    def test_no_contribute_-(self):
         result = contribute(self.reqs)
 
         self.assertEquals('contribute-json-not-implemented', result['result'])
         self.assertFalse(result['pass'])
 
-    def test_no_contribute_not_mozilla(self):
+    def test_no_contribute_not_-(self):
         self.reqs['responses']['auto'].url = 'https://github.com'
 
         result = contribute(self.reqs)
 
-        self.assertEquals('contribute-json-only-required-on-mozilla-properties', result['result'])
+        self.assertEquals('contribute-json-only-required-on---properties', result['result'])
         self.assertTrue(result['pass'])
 
     def test_invalid_json(self):
@@ -44,25 +44,25 @@ class TestContribute(TestCase):
         self.reqs['resources']['/contribute.json'] = """
         {
             "name": "Bedrock",
-            "description": "The app powering www.mozilla.org.",
+            "description": "The app powering www.-.org.",
             "repository": {
-                "url": "https://github.com/mozilla/bedrock",
+                "url": "https://github.com/-/bedrock",
                 "license": "MPL2",
-                "tests": "https://travis-ci.org/mozilla/bedrock/"
+                "tests": "https://travis-ci.org/-/bedrock/"
             },
             "participate": {
-                "home": "https://wiki.mozilla.org/Webdev/GetInvolved/mozilla.org",
+                "home": "https://wiki.-.org/Webdev/GetInvolved/-.org",
                 "docs": "http://bedrock.readthedocs.org/",
-                "mailing-list": "https://www.mozilla.org/about/forums/#dev-mozilla-org",
-                "irc": "irc://irc.mozilla.org/#www"
+                "mailing-list": "https://www.-.org/about/forums/#dev---org",
+                "irc": "irc://irc.-.org/#www"
             },
             "bugs": {
-                "list": "https://bugzilla.mozilla.org/describecomponents.cgi?product=www.mozilla.org",
-                "report": "https://bugzilla.mozilla.org/enter_bug.cgi?product=www.mozilla.org",
-                "mentored": "https://bugzilla.mozilla.org/buglist.cgi?f1=bug_mentor&o1=..."
+                "list": "https://bugzilla.-.org/describecomponents.cgi?product=www.-.org",
+                "report": "https://bugzilla.-.org/enter_bug.cgi?product=www.-.org",
+                "mentored": "https://bugzilla.-.org/buglist.cgi?f1=bug_mentor&o1=..."
             },
             "urls": {
-                "prod": "https://www.mozilla.org",
+                "prod": "https://www.-.org",
                 "stage": "https://www.allizom.org",
                 "dev": "https://www-dev.allizom.org",
                 "demo1": "https://www-demo1.allizom.org",
@@ -89,20 +89,20 @@ class TestContribute(TestCase):
         self.reqs['resources']['/contribute.json'] = """
         {
             "name": "Bedrock",
-            "description": "The app powering www.mozilla.org.",
+            "description": "The app powering www.-.org.",
             "repository": {
-                "url": "https://github.com/mozilla/bedrock",
+                "url": "https://github.com/-/bedrock",
                 "license": "MPL2",
-                "tests": "https://travis-ci.org/mozilla/bedrock/"
+                "tests": "https://travis-ci.org/-/bedrock/"
             },
             "participate": {
-                "home": "https://wiki.mozilla.org/Webdev/GetInvolved/mozilla.org",
+                "home": "https://wiki.-.org/Webdev/GetInvolved/-.org",
                 "docs": "http://bedrock.readthedocs.org/",
-                "mailing-list": "https://www.mozilla.org/about/forums/#dev-mozilla-org",
-                "irc": "irc://irc.mozilla.org/#www"
+                "mailing-list": "https://www.-.org/about/forums/#dev---org",
+                "irc": "irc://irc.-.org/#www"
             },
             "urls": {
-                "prod": "https://www.mozilla.org",
+                "prod": "https://www.-.org",
                 "stage": "https://www.allizom.org",
                 "dev": "https://www-dev.allizom.org",
                 "demo1": "https://www-demo1.allizom.org",
