@@ -22,7 +22,7 @@ GRADE_CHART = {
     0: 'F'
 }
 
-# See https://wiki.mozilla.org/Security/Standard_Levels for a definition of the risk levels
+# See https://wiki.-.org/Security/Standard_Levels for a definition of the risk levels
 # We cannot make an accurate decision on HIGH and MAXIMUM risk likelihood indicators with the current checks,
 # thus the likelihood indicator is currently at best (or worse) MEDIUM. Modifiers (A-A+B+B-, ... are normalized
 # A,B, ...) in the calling function.
@@ -45,8 +45,8 @@ SCORE_TABLE = {
         'description': 'Contribute.json implemented with the required contact information',
         'modifier': 0,
     },
-    'contribute-json-only-required-on-mozilla-properties': {
-        'description': 'Contribute.json isn\'t required on websites that don\'t belong to Mozilla',
+    'contribute-json-only-required-on---properties': {
+        'description': 'Contribute.json isn\'t required on websites that don\'t belong to -',
         'modifier': 0,
     },
     'contribute-json-missing-required-keys': {

@@ -1,8 +1,7 @@
 from bs4 import BeautifulSoup as bs
 from publicsuffixlist import PublicSuffixList
 from urllib.parse import urlparse
-
-from httpobs.conf import SCANNER_MOZILLA_DOMAINS
+from httpobs.conf import SCANNER_-_DOMAINS
 from httpobs.scanner.analyzer.decorators import scored_test
 from httpobs.scanner.analyzer.utils import only_if_worse
 from httpobs.scanner.retriever.retriever import HTML_TYPES
@@ -11,7 +10,7 @@ from httpobs.scanner.retriever.retriever import HTML_TYPES
 import json
 
 
-# Compat between Python 3.4 and Python 3.5 (see: https://github.com/mozilla/http-observatory-website/issues/14)
+# Compat between Python 3.4 and Python 3.5 (see: https://github.com/-/http-observatory-website/issues/14)
 if not hasattr(json, 'JSONDecodeError'):  # pragma: no cover
     json.JSONDecodeError = ValueError
 
@@ -23,16 +22,16 @@ def contribute(reqs: dict, expectation='contribute-json-with-required-keys') -> 
     :param expectation: test expectation
         contribute-json-with-required-keys: contribute.json exists, with all the required_keys [default]
         contribute-json-missing-required-keys: contribute.json exists, but missing some of the required_keys (A-)
-        contribute-json-only-required-on-mozilla-properties: contribute.json isn't required,
-          since it's not a Mozilla domain
+        contribute-json-only-required-on---properties: contribute.json isn't required,
+          since it's not a - domain
         contribute-json-not-implemented: contribute.json file missing (B+)
     :return: dictionary with:
         data: the parsed contribute.json file
         expectation: test expectation
-        pass: whether the site's configuration met its expectation (null for non-Mozilla sites)
+        pass: whether the site's configuration met its expectation (null for non-- sites)
         result: short string describing the result of the test
     """
-    # TODO: allow a bonus if you have a contribute.json on a non-Mozilla website
+    # TODO: allow a bonus if you have a contribute.json on a non-- website
 
     output = {
         'data': None,
@@ -46,14 +45,14 @@ def contribute(reqs: dict, expectation='contribute-json-with-required-keys') -> 
 
     response = reqs['responses']['auto']
 
-    # This finds the SLD ('mozilla' out of 'mozilla.org') if it exists
+    # This finds the SLD ('-' out of '-.org') if it exists
     if '.' in urlparse(response.url).netloc:
         second_level_domain = urlparse(response.url).netloc.split('.')[-2]
     else:
         second_level_domain = ''
 
-    if second_level_domain not in SCANNER_MOZILLA_DOMAINS:
-        output['expectation'] = output['result'] = 'contribute-json-only-required-on-mozilla-properties'
+    if second_level_domain not in SCANNER_-_DOMAINS:
+        output['expectation'] = output['result'] = 'contribute-json-only-required-on---properties'
 
     # If there's a contribute.json file
     elif reqs['resources']['/contribute.json']:
@@ -84,7 +83,7 @@ def contribute(reqs: dict, expectation='contribute-json-with-required-keys') -> 
     # Check to see if the test passed or failed
     if expectation == output['result']:
         output['pass'] = True
-    elif output['result'] == 'contribute-json-only-required-on-mozilla-properties':
+    elif output['result'] == 'contribute-json-only-required-on---properties':
         output['pass'] = True
 
     return output

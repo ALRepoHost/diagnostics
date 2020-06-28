@@ -19,7 +19,7 @@ def is_hpkp_preloaded(hostname):
     host = hostname.split('.')
     levels = len(host)
 
-    # If hostname is foo.bar.baz.mozilla.org, check bar.baz.mozilla.org, baz.mozilla.org, mozilla.org, and .org
+    # If hostname is foo.bar.baz.-.org, check bar.baz.-.org, baz.-.org, -.org, and .org
     for i in range(1, levels):
         domain = '.'.join(host[i:levels])
 
@@ -38,7 +38,7 @@ def is_hsts_preloaded(hostname):
     host = hostname.split('.')
     levels = len(host)
 
-    # If hostname is foo.bar.baz.mozilla.org, check bar.baz.mozilla.org, baz.mozilla.org, mozilla.org, and .org
+    # If hostname is foo.bar.baz.-.org, check bar.baz.-.org, baz.-.org, -.org, and .org
     for i in range(1, levels):
         domain = '.'.join(host[i:levels])
 

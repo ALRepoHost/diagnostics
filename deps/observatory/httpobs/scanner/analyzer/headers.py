@@ -5,11 +5,11 @@ from httpobs.scanner.analyzer.utils import is_hpkp_preloaded, is_hsts_preloaded,
 
 
 # Ignore the CloudFlare __cfduid tracking cookies. They *are* actually bad, but it is out of a site's
-# control.  See https://github.com/mozilla/http-observatory/issues/121 for additional details. Hopefully
+# control.  See https://github.com/-/http-observatory/issues/121 for additional details. Hopefully
 # this will eventually be fixed on CloudFlare's end.
 
 # Also ignore the Heroku sticky session cookie, see:
-# https://github.com/mozilla/http-observatory/issues/282
+# https://github.com/-/http-observatory/issues/282
 COOKIES_TO_DELETE = ['__cfduid', 'heroku-session-affinity']
 
 # CSP settings
@@ -24,8 +24,8 @@ def __parse_csp(csp_string: str) -> dict:
     {
       'default-src': {'\'none\''},
       'object-src': {'\'none\''},
-      'script-src': {'https://mozilla.org', '\'unsafe-inline\''},
-      'style-src': {'\'self\', 'https://mozilla.org'},
+      'script-src': {'https://-.org', '\'unsafe-inline\''},
+      'style-src': {'\'self\', 'https://-.org'},
       'upgrade-insecure-requests': {},
     }
     """
@@ -169,8 +169,8 @@ def content_security_policy(reqs: dict, expectation='csp-implemented-with-no-uns
     style_src = csp.get('style-src') or csp.get('default-src') or {'*'}
 
     # Remove 'unsafe-inline' if nonce or hash are used in script-src or style-src
-    # See: https://github.com/mozilla/http-observatory/issues/88
-    #      https://github.com/mozilla/http-observatory/issues/277
+    # See: https://github.com/-/http-observatory/issues/88
+    #      https://github.com/-/http-observatory/issues/277
     for source_list in (script_src, style_src):
         if any(source.startswith(NONCES_HASHES) for source in source_list) and '\'unsafe-inline\'' in source_list:
             source_list.remove('\'unsafe-inline\'')
@@ -311,7 +311,7 @@ def cookies(reqs: dict, expectation='cookies-secure-with-httponly-sessions') -> 
                 'cookies-session-without-secure-flag']
 
     # TODO: Support cookies set over http-equiv (ugh)
-    # https://github.com/mozilla/http-observatory/issues/265
+    # https://github.com/-/http-observatory/issues/265
 
     # Get their HTTP Strict Transport Security status, which can help when cookies are set without Secure
     hsts = strict_transport_security(reqs)['pass']

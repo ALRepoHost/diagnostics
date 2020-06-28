@@ -1,7 +1,7 @@
 # HTTP Observatory API Documentation
 
 **Last Updated:** 2016-03-23<br>
-**Author:** april@mozilla.com
+**Author:** april@-.com
 
 This document explains the HTTP Observatory API, which is used to test the state of security for websites on the public internet.
 
@@ -11,7 +11,7 @@ The HTTP Observatory API is based on HTTP and JSON. All requests are either done
 
 ## Protocol Calls
 
-The primary endpoint of the HTTP Observatory is [https://http-observatory.security.mozilla.org/api/v1](https://http-observatory.security.mozilla.org/api/v1).
+The primary endpoint of the HTTP Observatory is [https://http-observatory.security.-.org/api/v1](https://http-observatory.security.-.org/api/v1).
 
 ### Invoke assessment
 
@@ -28,7 +28,7 @@ POST parameters:
 * `rescan` setting to "true" forces a rescan of a site
 
 Examples:
-* `/api/v1/analyze?host=www.mozilla.org`
+* `/api/v1/analyze?host=www.-.org`
 * `/api/v1/analyze?host=www.privatesite.net`
   * `hidden=true&rescan=true`  (POST data)
 
@@ -45,7 +45,7 @@ Parameters:
 * `host` hostname (required)
 
 Example:
-* `/api/v1/analyze?host=www.mozilla.org`
+* `/api/v1/analyze?host=www.-.org`
 
 ### Retrieve test results
 
@@ -90,7 +90,7 @@ Parameters:
 * `host` hostname (required)
 
 Examples:
-* `/api/v1/getHostHistory?host=mozilla.org` (scan history for mozilla.org)
+* `/api/v1/getHostHistory?host=-.org` (scan history for -.org)
 
 
 ### Retrieve overall grade distribution
@@ -119,7 +119,6 @@ Example:
 ### Grade distribution
 
 Example:
-```json
 {
   "A+": 3,
   "A": 6,
@@ -135,56 +134,9 @@ Example:
   "D-": 215,
   "F": 46770
 }
-```
 
 ### Recent scans
-
-Example:
-```json
-{
-  "site1.mozilla.org": "A",
-  "site2.mozilla.org": "B-",
-  "site3.mozilla.org": "C+",
-  "site4.mozilla.org": "F",
-  "site5.mozilla.org": "F",
-  "site6.mozilla.org": "B",
-  "site7.mozilla.org": "F",
-  "site8.mozilla.org": "B+",
-  "site9.mozilla.org": "A+",
-  "site0.mozilla.org": "A-"
-}
-```
-
 ### Host history
-
-Example:
-```json
-  [
-    {
-      "end_time": "Thu, 22 Sep 2016 23:24:28 GMT",
-      "end_time_unix_timestamp": 1474586668,
-      "grade": "C",
-      "scan_id": 1711106,
-      "score": 50
-    },
-    {
-      "end_time": "Thu, 09 Feb 2017 01:30:47 GMT",
-      "end_time_unix_timestamp": 1486603847,
-      "grade": "B+",
-      "scan_id": 3292839,
-      "score": 80
-    },
-    {
-      "end_time": "Fri, 10 Feb 2017 02:30:08 GMT",
-      "end_time_unix_timestamp": 1486693808,
-      "grade": "A",
-      "scan_id": 3302879,
-      "score": 90
-    }
-  ]
-```
-
-
 ### Scan
 
 * `end_time` timestamp for when the scan completed
@@ -193,7 +145,7 @@ Example:
 * `response_headers` the entirety of the HTTP response headers
 * `scan_id` unique ID number assigned to the scan
 * `score` final score assessed upon a completed (`FINISHED`) scan
-* `likelihood_indicator` Mozilla risk likelihod indicator that is the equivalent of the grade [https://wiki.mozilla.org/Security/Standard_Levels] (https://wiki.mozilla.org/Security/Standard_Levels)
+* `likelihood_indicator` - risk likelihod indicator that is the equivalent of the grade [https://wiki.-.org/Security/Standard_Levels] (https://wiki.-.org/Security/Standard_Levels)
 * `start_time` timestamp for when the scan was first requested
 * `state` the current state of the scan
 * `tests_failed` the number of subtests that were assigned a fail result
@@ -270,7 +222,7 @@ Example:
         ],
         "font-src": [
           "'self'",
-          "https://addons.cdn.mozilla.net"
+          "https://addons.cdn.-.net"
         ],
         "frame-src": [
           "'self'",
@@ -285,13 +237,13 @@ Example:
           "blob:",
           "https://www.paypal.com",
           "https://ssl.google-analytics.com",
-          "https://addons.cdn.mozilla.net",
-          "https://static.addons.mozilla.net",
+          "https://addons.cdn.-.net",
+          "https://static.addons.-.net",
           "https://ssl.gstatic.com/",
           "https://sentry.prod.mozaws.net"
         ],
         "media-src": [
-          "https://videos.cdn.mozilla.net"
+          "https://videos.cdn.-.net"
         ],
         "object-src": [
           "'none'"
@@ -301,18 +253,18 @@ Example:
         ],
         "script-src": [
           "'self'",
-          "https://addons.mozilla.org",
+          "https://addons.-.org",
           "https://www.paypalobjects.com",
           "https://apis.google.com",
           "https://www.google.com/recaptcha/",
           "https://www.gstatic.com/recaptcha/",
           "https://ssl.google-analytics.com",
-          "https://addons.cdn.mozilla.net"
+          "https://addons.cdn.-.net"
         ],
         "style-src": [
           "'self'",
           "'unsafe-inline'",
-          "https://addons.cdn.mozilla.net"
+          "https://addons.cdn.-.net"
         ]
       }
     },
@@ -327,15 +279,15 @@ Example:
     "output": {
       "data": {
         "bugs": {
-          "list": "https://github.com/mozilla/addons-server/issues",
-          "report": "https://github.com/mozilla/addons-server/issues/new"
+          "list": "https://github.com/-/addons-server/issues",
+          "report": "https://github.com/-/addons-server/issues/new"
         },
-        "description": "Mozilla's official site for add-ons to Mozilla software, such as Firefox, Thunderbird, and SeaMonkey.",
+        "description": "-'s official site for add-ons to - software, such as Firefox, Thunderbird, and SeaMonkey.",
         "name": "Olympia",
         "participate": {
           "docs": "http://addons-server.readthedocs.org/",
-          "home": "https://wiki.mozilla.org/Add-ons/Contribute/AMO/Code",
-          "irc": "irc://irc.mozilla.org/#amo",
+          "home": "https://wiki.-.org/Add-ons/Contribute/AMO/Code",
+          "irc": "irc://irc.-.org/#amo",
           "irc-contacts": [
             "andym",
             "cgrebs",
@@ -348,7 +300,7 @@ Example:
         },
         "urls": {
           "dev": "https://addons-dev.allizom.org/",
-          "prod": "https://addons.mozilla.org/",
+          "prod": "https://addons.-.org/",
           "stage": "https://addons.allizom.org/"
         }
       }
@@ -364,7 +316,7 @@ Example:
     "output": {
       "data": {
         "sessionid": {
-          "domain": ".addons.mozilla.org",
+          "domain": ".addons.-.org",
           "expires": null,
           "httponly": true,
           "max-age": null,
@@ -413,12 +365,12 @@ Example:
     "expectation": "redirection-to-https",
     "name": "redirection",
     "output": {
-      "destination": "https://addons.mozilla.org/en-US/firefox/",
+      "destination": "https://addons.-.org/en-US/firefox/",
       "redirects": true,
       "route": [
-        "http://addons.mozilla.org/",
-        "https://addons.mozilla.org/",
-        "https://addons.mozilla.org/en-US/firefox/"
+        "http://addons.-.org/",
+        "https://addons.-.org/",
+        "https://addons.-.org/en-US/firefox/"
       ],
       "status_code": 200
     },
@@ -447,11 +399,11 @@ Example:
     "name": "subresource-integrity",
     "output": {
       "data": {
-        "https://addons.cdn.mozilla.net/static/js/impala-min.js?build=552decc-56eadb2f": {
+        "https://addons.cdn.-.net/static/js/impala-min.js?build=552decc-56eadb2f": {
           "crossorigin": null,
           "integrity": null
         },
-        "https://addons.cdn.mozilla.net/static/js/preload-min.js?build=552decc-56eadb2f": {
+        "https://addons.cdn.-.net/static/js/preload-min.js?build=552decc-56eadb2f": {
           "crossorigin": null,
           "integrity": null
         }
