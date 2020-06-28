@@ -46,7 +46,6 @@ CREATE TABLE IF NOT EXISTS tests (
 );
 
 CREATE INDEX sites_domain_idx            ON sites (domain);
-
 CREATE INDEX scans_site_id_idx           ON scans (site_id);
 CREATE INDEX scans_state_idx             ON scans (state);
 CREATE INDEX scans_start_time_idx        ON scans (start_time);
@@ -55,20 +54,17 @@ CREATE INDEX scans_algorithm_version_idx ON scans (algorithm_version);
 CREATE INDEX scans_grade_idx             ON scans (grade);
 CREATE INDEX scans_score_idx             ON scans (score);
 CREATE INDEX scans_hidden_idx            ON scans (hidden);
-
 CREATE INDEX tests_scan_id_idx           ON tests (scan_id);
 CREATE INDEX tests_name_idx              ON tests (name);
 CREATE INDEX tests_result_idx            ON tests (result);
 CREATE INDEX tests_pass_idx              ON tests (pass);
-
 CREATE USER httpobsscanner;
+
 GRANT SELECT on sites, scans, expectations, tests TO httpobsscanner;
 GRANT UPDATE (domain) ON sites to httpobsscanner;  /* TODO: there's got to be a better way with SELECT ... FOR UPDATE */
 GRANT UPDATE on scans TO httpobsscanner;
 GRANT INSERT on tests TO httpobsscanner;
 GRANT USAGE ON SEQUENCE tests_id_seq TO httpobsscanner;
-
-CREATE USER httpobsapi;
 GRANT SELECT ON expectations, scans, tests to httpobsapi;
 GRANT SELECT (id, domain, creation_time, public_headers) ON sites TO httpobsapi;
 GRANT INSERT ON sites, scans TO httpobsapi;
@@ -176,3 +172,4 @@ ALTER MATERIALIZED VIEW latest_tests OWNER TO httpobsscanner;
 ALTER TABLE scans ADD COLUMN algorithm_version SMALLINT NOT NULL DEFAULT 1;
 CREATE INDEX scans_algorithm_version_idx ON scans (algorithm_version);
 */
+CREATE USER httpobsapi;
