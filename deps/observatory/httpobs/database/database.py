@@ -1,8 +1,8 @@
+# TODO: resolve yellow underlining
 from contextlib import contextmanager
 from json import dumps
 from types import SimpleNamespace
 from os import getpid
-
 from httpobs.conf import (API_CACHED_RESULT_TIME,
                           DATABASE_CA_CERT,
                           DATABASE_DB,
@@ -25,7 +25,6 @@ import psycopg2
 import psycopg2.extras
 import psycopg2.pool
 import sys
-
 
 class SimpleDatabaseConnection:
     def __init__(self):
@@ -76,8 +75,6 @@ class SimpleDatabaseConnection:
 # Create an initial database connection on startup
 db = SimpleDatabaseConnection()
 
-
-@contextmanager
 def get_cursor():
     try:
         yield db.conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
@@ -96,7 +93,6 @@ try:
 except IOError:
     print('WARNING: Unable to connect to PostgreSQL.', file=sys.stderr)
 
-
 def insert_scan(site_id: int, hidden: bool = False) -> dict:
     with get_cursor() as cur:
         cur.execute("""INSERT INTO scans (site_id, state, start_time, algorithm_version, tests_quantity, hidden)
@@ -105,7 +101,6 @@ def insert_scan(site_id: int, hidden: bool = False) -> dict:
                     (site_id, STATE_PENDING, ALGORITHM_VERSION, NUM_TESTS, hidden))
 
         return dict(cur.fetchone())
-
 
 def insert_scan_grade(scan_id, scan_grade, scan_score) -> dict:
     with get_cursor() as cur:
