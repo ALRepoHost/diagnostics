@@ -1,19 +1,19 @@
-# Mozilla HTTP Observatory - [![Build Status](https://travis-ci.org/april/http-observatory.svg?branch=master)](https://travis-ci.org/april/http-observatory) [![Requirements Status](https://requires.io/github/mozilla/http-observatory/requirements.svg?branch=master)](https://requires.io/github/mozilla/http-observatory/requirements/?branch=master)
+# - HTTP Observatory - [![Build Status](https://travis-ci.org/april/http-observatory.svg?branch=master)](https://travis-ci.org/april/http-observatory) [![Requirements Status](https://requires.io/github/-/http-observatory/requirements.svg?branch=master)](https://requires.io/github/-/http-observatory/requirements/?branch=master)
 
-The Mozilla HTTP Observatory is a set of tools to analyze your website and inform you if you are utilizing the many available methods to secure it.
+The - HTTP Observatory is a set of tools to analyze your website and inform you if you are utilizing the many available methods to secure it.
 
 It is split into three projects:
 
-* [http-observatory](https://github.com/mozilla/http-observatory) - scanner/grader
-* [observatory-cli](https://github.com/mozilla/observatory-cli) - command line interface
-* [http-observatory-website](https://github.com/mozilla/http-observatory-website) - web interface
+* [http-observatory](https://github.com/-/http-observatory) - scanner/grader
+* [observatory-cli](https://github.com/-/observatory-cli) - command line interface
+* [http-observatory-website](https://github.com/-/http-observatory-website) - web interface
 
 ## Scanning sites with the HTTP Observatory
 
 Sites can be scanned using:
 
-* [observatory.mozilla.org](https://observatory.mozilla.org/) - the online interface
-* [observatory-cli](https://github.com/mozilla/observatory-cli) - the official node.js command line interface
+* [observatory.-.org](https://observatory.-.org/) - the online interface
+* [observatory-cli](https://github.com/-/observatory-cli) - the official node.js command line interface
 * [java-http-observatory-api](https://github.com/stoennies/java-http-observatory-api) - a third party java library and command line interface
 
 ## Contributing
@@ -32,7 +32,7 @@ If this is not appropriate for your environment, you may install the appropriate
 ## Running a scan from the local codebase, without DB, for continuous integration
 ```bash
 # Install the HTTP Observatory
-$ git clone https://github.com/mozilla/http-observatory.git
+$ git clone https://github.com/-/http-observatory.git
 $ cd http-observatory
 $ pip3 install --upgrade .
 $ pip3 install --upgrade -r requirements.txt
@@ -41,8 +41,8 @@ $ pip3 install --upgrade -r requirements.txt
 ### Using the local scanner function calls
 ```python
 >>> from httpobs.scanner.local import scan
->>> scan('observatory.mozilla.org')  # a scan with default options
->>> scan('observatory.mozilla.org',  # all the custom options
+>>> scan('observatory.-.org')  # a scan with default options
+>>> scan('observatory.-.org',  # all the custom options
          http_port=8080,             # http server runs on port 8080
          https_port=8443,            # https server runs on port 8443
          path='/foo/bar',            # don't scan /, instead scan /foo/bar
@@ -54,7 +54,7 @@ $ pip3 install --upgrade -r requirements.txt
 ### The same, but with the local CLI
 ```bash
 $ httpobs-local-scan --http-port 8080 --https-port 8443 --path '/foo/bar' \
-    --cookies '{"foo": "bar"}' --headers '{"X-Foo": "bar"}' --no-verify mozilla.org
+    --cookies '{"foo": "bar"}' --headers '{"X-Foo": "bar"}' --no-verify -.org
 ```
 
 ## Running a local scanner with Docker
@@ -62,7 +62,7 @@ $ httpobs-local-scan --http-port 8080 --https-port 8443 --path '/foo/bar' \
 
 ```bash
 # Install the HTTP Observatory client and requests library
-$ git clone https://github.com/mozilla/http-observatory.git
+$ git clone https://github.com/-/http-observatory.git
 $ cd http-observatory
 $ pip3 install .
 $ pip3 install --upgrade requests
@@ -87,7 +87,7 @@ $ docker-compose up -d
 
 # Clone the repo
 # cd /opt
-# git clone https://github.com/mozilla/http-observatory.git
+# git clone https://github.com/-/http-observatory.git
 # cd http-observatory
 
 # Install the observatory and scanner
@@ -128,4 +128,4 @@ $ HTTPOBS_DATABASE_USER="httpobsscanner" HTTPOBS_DATABASE_PASS="....." \
 
 ## License
 
-* Mozilla Public License Version 2.0
+* - Public License Version 2.0
