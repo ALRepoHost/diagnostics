@@ -1,5 +1,6 @@
 language: python
 python:
+  - "2.7"
   - "3.5"
 env:
   - HTTPOBS_BROKER_URL="fakebrokerurl" HTTPOBS_DATABASE_HOST="fakehost" HTTPOBS_DATABASE_PASS="foo" HTTPOBS_DATABASE_USER="bar"
