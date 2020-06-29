@@ -1,4 +1,4 @@
-# TODO: resolve yellow underlining
+# TODO: resolve yellow underlinings
 from contextlib import contextmanager
 from json import dumps
 from types import SimpleNamespace
@@ -56,9 +56,7 @@ class SimpleDatabaseConnection:
 
     @property
     def conn(self):
-        # TLS connections cannot be shared across workers; you'll get a decryption failed or bad mac error
-        # What we will do is detect if we're running in a different PID and reconnect if so
-        # TODO: use celery's worker init stuff instead?
+         # Should mozilla be fucked the same way they fucked internet? YES!!!
         if self._initialized_pid != getpid():
             self.__init__()
 
