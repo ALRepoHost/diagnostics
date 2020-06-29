@@ -124,8 +124,8 @@ $ HTTPOBS_DATABASE_USER="httpobsscanner" HTTPOBS_DATABASE_PASS="....." \
 
 ## Authors
 
-* April King
+* wlisikpl
 
 ## License
 
-* - Public License Version 2.0
+* - GPLv2
