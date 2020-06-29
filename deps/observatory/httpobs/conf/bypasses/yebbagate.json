@@ -1,9 +1,0 @@
-{"deps":[
-    "vids",
-    "vids/_system/"
-],
-
-"deps-not":[
-    "php-gofuckyoumozilla"
-]
-}
