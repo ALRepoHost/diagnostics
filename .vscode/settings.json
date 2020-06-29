@@ -8,7 +8,7 @@ License: GPL v2.
     // Editor related settings
     "editor.cursorStyle": "line-thin",
     "editor.wordWrap": "on",
-    "editor.wordWrapColumn": 80,
+    "editor.wordWrapColumn": 60,
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": true,
     "editor.formatOnPaste": true,
