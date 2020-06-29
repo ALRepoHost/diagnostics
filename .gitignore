@@ -4,6 +4,8 @@ scripts/js/getSubscriptionName.js
 scripts/js/modern.js
 scripts/js/_brokers/LoginBroker.js
 scripts/py/_crypto/loginServices.py
+
+# Markdown
 scripts/styles/bootstrap/.bootstrap-version.md
 
 # Skrypty PHP
