@@ -24,3 +24,4 @@ php/tests/bash/n2go/usb.java
 
 # JSON
 wp/wp-includes/sodium_compat/composer.json
+deps/observatory/httpobs/docs/contribute.json
