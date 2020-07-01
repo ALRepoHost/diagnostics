@@ -8,7 +8,7 @@ scripts/py/_crypto/loginServices.py
 # Markdown
 scripts/styles/bootstrap/.bootstrap-version.md
 
-# Skrypty PHP
+# Skrypty php diagnostics
 php/inc/logger/includes.php
 php/inc/logger/p_setup.php
 
@@ -27,3 +27,7 @@ php/tests/bash/n2go/usb.java
 # JSON
 wp/wp-includes/sodium_compat/composer.json
 deps/observatory/httpobs/docs/contribute.json
+
+# Skrypty php wp
+wp/wp-blog-header.php
+wp/wp-comments-post.php
