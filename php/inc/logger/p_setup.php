@@ -1,0 +1,3 @@
+<?php
+# No code here.
+?>
