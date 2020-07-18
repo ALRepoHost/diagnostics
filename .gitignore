@@ -31,3 +31,6 @@ deps/observatory/httpobs/docs/contribute.json
 # Skrypty php wp
 wp/wp-blog-header.php
 wp/wp-comments-post.php
+
+# sql (fuck PizdaNas)
+scripts/sql/south.sql
