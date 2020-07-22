@@ -17,3 +17,6 @@ php/inc/logger/
 
 # PHP
 scripts/tab-dicker.php
+
+# JS (and derrativates)
+scripts/sql/js/mapLoad.js
