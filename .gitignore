@@ -7,6 +7,7 @@ scripts/py/_crypto/loginServices.py
 
 # Markdown
 scripts/styles/bootstrap/.bootstrap-version.md
+md/*
 
 # Skrypty php diagnostics
 php/inc/logger/includes.php
