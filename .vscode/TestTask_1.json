@@ -11,5 +11,7 @@
         "$schema"
     ],
     "additionalItems": false,
-    "pattern": "./tasks.json"
+    "pattern": "./tasks.json",
+
+    "contains": true
 }

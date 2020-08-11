@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "definitions": {
+        "taskFile":{
+            "type":"object",
+            "properties": {
+                "fileName": { "type":"string" },
+                "filePath": { "type":"string" },
+                "filePerm": { "type":"integer"}
+        },
+        "required": ["fileName", "filePath", "filePerm"]
+    }
+},
+
+"allOf": [
+    {"$ref": "#/simkutasy.utftokurwy"},
+    {"properties": {
+        "type": {"enum": ["kdeinventorisfucker"]}
+    }}]
+}
