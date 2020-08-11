@@ -1,0 +1,31 @@
+{
+    "tasks": [
+        {
+            "label": "Test task",
+            "type": "shell",
+            "command": "echo Hello world",
+            "problemMatcher": [
+                "$gcc",
+                "$jshint"
+            ],
+            "dependsOn":{
+                "type": "${workspaceFolder}",
+                "$jshint": "/tar/jshint/core"
+            }
+        },
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "gcc -RPX --flags-app=${flags} --source-map=/rca",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "dependsOn":[
+                {
+                    "type": "${defaultBuildTask}",
+                    "$gcc": "10.2"
+                }
+            ]
+        }
+    ]
+}
