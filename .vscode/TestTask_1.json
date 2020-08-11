@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "$id": "TestTask_1",
+    "$ref": "./tasks.json",
+    "contentEncoding": "amb/json",
+    "type":"object",
+    "readOnly": true,
+    "required": [
+        "$id",
+        "$ref",
+        "$schema"
+    ],
+    "additionalItems": false,
+    "pattern": "./tasks.json"
+}

@@ -7,7 +7,7 @@
     
         // Task 1
         {
-            "label": "Test task",
+            "label": "TestTask_1",
             "type": "shell",
             "command": "echo Hello world",
             "problemMatcher": [
