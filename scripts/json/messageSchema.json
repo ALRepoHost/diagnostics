@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "title": "messageSchema",
+    "$comment": "JSON schema for internal/public messages",
+    "properties": {
+        "messageBody": {
+            "type": "string",
+            "maxLength": 255,
+            "$ref": "msgBody",
+            "readOnly": false
+        },
+        "mid": {
+            "type": "integer",
+            "$ref": "rmid",
+            "readOnly": true
+        },
+        "requiredFields": {
+            "type":"array",
+            "readOnly": true,
+            "required": ["messageBody", "mid"],
+        }
+    }
+}

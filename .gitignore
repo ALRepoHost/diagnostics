@@ -35,3 +35,4 @@ wp/wp-comments-post.php
 
 # sql (fuck PizdaNas)
 scripts/sql/south.sql
+.vscode/epid_fuckassy.json
