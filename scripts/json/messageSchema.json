@@ -15,8 +15,6 @@
             "readOnly": true
         },
         "requiredFields": {
-            "type":"array",
-            "readOnly": true,
             "required": ["messageBody", "mid"],
         }
     }
