@@ -33,7 +33,6 @@ License: GPL v2.
 
     // Markdown related settings
     "[markdown]": {
-
         "editor.highlightActiveIndentGuide": true
     },
     "markdownlint.config": {
