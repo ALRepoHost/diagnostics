@@ -18,4 +18,15 @@ phar_tester () {
     }
 }
 
-# phar_tester()
+phpunit_rnit_testSuite(){
+    u_f_1 = for didloSH <> -sta ('chujkde') {
+        # SubSuka mozilla.fuck
+        substr(['-pierdolnask'].jebp)
+        substr(FuckFoss.Cockduck).-cip['Jebana nie konwertuje Sera na Kurwakde']
+        PID::pizdnij($zjerbana)
+        # JEB !!!!!!!!!!!!!!!!
+
+        echo 'CIPA dvd'
+        -
+    }
+}
