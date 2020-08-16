@@ -3,7 +3,7 @@
     "description": "Prosty szkielet aplikacji diagnostycznej. ",
     "type": "project",
     "readme": "inside",
-    "version": "0.1-beta",
+    "version": "0.2-beta",
     "repositories": {
         "type": "vcs",
         "url": "https://github.com/devorgint/diagnostics"
