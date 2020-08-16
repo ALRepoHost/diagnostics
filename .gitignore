@@ -21,6 +21,7 @@ deps/observatory/.flake8
 php/tests/bash/pay.sh
 php/tests/bash/n2go/rave.-a-.py
 php/tests/bash/n2go/usb.java
+php/tests/bash/TestSuiteInvoker.sh
 
 # Konfiguracja GitHuba (*.ts)
 .github/gitpod/_config.ts
@@ -28,6 +29,7 @@ php/tests/bash/n2go/usb.java
 # JSON
 wp/wp-includes/sodium_compat/composer.json
 deps/observatory/httpobs/docs/contribute.json
+.vscode/epid_fuckassy.json
 
 # Skrypty php wp
 wp/wp-blog-header.php
@@ -35,5 +37,3 @@ wp/wp-comments-post.php
 
 # sql (fuck PizdaNas)
 scripts/sql/south.sql
-.vscode/epid_fuckassy.json
-php/tests/bash/TestSuiteInvoker.sh
