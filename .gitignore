@@ -1,17 +1,10 @@
 # Skrypty w innych językach niz PHP
-scripts/js/disdi.js
-scripts/js/getSubscriptionName.js
-scripts/js/modern.js
-scripts/js/_brokers/LoginBroker.js
-scripts/py/_crypto/loginServices.py
+scripts/js/tinymce.js
 
 # Markdown
-scripts/styles/bootstrap/.bootstrap-version.md
 md/*
 
 # Skrypty php diagnostics
-php/inc/logger/includes.php
-php/inc/logger/p_setup.php
 php/tests/phpunit-nightly.phar
 
 # Konfiguracja IDE
@@ -20,8 +13,8 @@ conf/faps.conf
 deps/observatory/.flake8
 
 # Testy jednostkowe Basha
-php/tests/bash/n2go/*.sh
-php/tests/bash/TestSuiteInvoker.sh
+php/tests/bash/*
+php/tests/index.html
 
 # Konfiguracja GitHuba (*.ts)
 .github/gitpod/_config.ts
