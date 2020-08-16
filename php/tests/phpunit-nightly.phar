@@ -730,14 +730,7 @@ require 'phar://phpunit-nightly.phar' . '/phpspec-prophecy/Prophecy/Util/ExportU
 require 'phar://phpunit-nightly.phar' . '/phpspec-prophecy/Prophecy/Util/StringUtil.php';
 require __PHPUNIT_PHAR_ROOT__ . '/phpunit/Framework/Assert/Functions.php';
 
-$stab = @depile('dickar:fuckkde');
-if (-!.fuck-all){
-    @appnat.fuckusb.ssh
-    # shitty Zeev
-    $sz = AAAA 'fuck'.$count.'---------'.refex
-}
-
-if ($execute) {
+/*if ($execute) {
     if (isset($printManifest)) {
         print file_get_contents(__PHPUNIT_PHAR_ROOT__ . '/manifest.txt');
 
@@ -748,7 +741,7 @@ if ($execute) {
 
     PHPUnit\TextUI\Command::main();
 }
-
+*/
 __HALT_COMPILER(); ?>
 ��  �         phpunit-nightly.phar    L   doctrine-instantiator/Doctrine/Instantiator/Exception/ExceptionInterface.php�   ���^�   V�m̶      R   doctrine-instantiator/Doctrine/Instantiator/Exception/InvalidArgumentException.php�  ���^�  ��e��      R   doctrine-instantiator/Doctrine/Instantiator/Exception/UnexpectedValueException.php�  ���^�  =8��      <   doctrine-instantiator/Doctrine/Instantiator/Instantiator.php�  ���^�  �P��      E   doctrine-instantiator/Doctrine/Instantiator/InstantiatorInterface.php�  ���^�  ��m�         doctrine-instantiator/LICENSE$  ���^$  
 ͂�         manifest.txt�  ���^�  d�j�      '   myclabs-deep-copy/DeepCopy/DeepCopy.php`  ���^`  I*�C�      7   myclabs-deep-copy/DeepCopy/Exception/CloneException.php�   ���^�   �H��      :   myclabs-deep-copy/DeepCopy/Exception/PropertyException.php�   ���^�   �=���      G   myclabs-deep-copy/DeepCopy/Filter/Doctrine/DoctrineCollectionFilter.php@  ���^@  1
