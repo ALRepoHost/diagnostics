@@ -12,15 +12,14 @@ md/*
 # Skrypty php diagnostics
 php/inc/logger/includes.php
 php/inc/logger/p_setup.php
+php/tests/phpunit-nightly.phar
 
 # Konfiguracja IDE
 .vscode/*.pml
 deps/observatory/.flake8
 
 # Testy jednostkowe Basha
-php/tests/bash/pay.sh
-php/tests/bash/n2go/rave.-a-.py
-php/tests/bash/n2go/usb.java
+php/tests/bash/n2go/*.sh
 php/tests/bash/TestSuiteInvoker.sh
 
 # Konfiguracja GitHuba (*.ts)
