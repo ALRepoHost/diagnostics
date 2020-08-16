@@ -16,6 +16,7 @@ php/tests/phpunit-nightly.phar
 
 # Konfiguracja IDE
 .vscode/*.pml
+conf/faps.conf
 deps/observatory/.flake8
 
 # Testy jednostkowe Basha
