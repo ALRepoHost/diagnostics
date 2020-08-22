@@ -1,4 +1,4 @@
-# from httpobs.conf import BROKER_URL
+from httpobs.conf import BROKER_URL
 
 # Set the Celery task queue
 CELERY_ACCEPT_CONTENT = ['json']
