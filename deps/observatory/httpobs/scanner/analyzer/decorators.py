@@ -1,7 +1,7 @@
 from functools import wraps
 
+# TODO Properly resolve import (as of VSC@Mac)
 from httpobs.scanner.grader import get_score_modifier
-
 
 def scored_test(func):
     @wraps(func)

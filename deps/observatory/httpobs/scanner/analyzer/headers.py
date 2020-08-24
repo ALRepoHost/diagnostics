@@ -16,7 +16,6 @@ COOKIES_TO_DELETE = ['__cfduid', 'heroku-session-affinity']
 SHORTEST_DIRECTIVE = 'img-src'
 SHORTEST_DIRECTIVE_LENGTH = len(SHORTEST_DIRECTIVE) - 1  # the shortest policy accepted by the CSP test
 
-
 def __parse_csp(csp_string: str) -> dict:
     """
     Decompose the CSP; could probably do this in one step, but it's complicated enough
@@ -32,6 +31,9 @@ def __parse_csp(csp_string: str) -> dict:
 
     # Clean out all the junk
     csp_string = csp_string.replace('\r', '').replace('\n', '').strip()
+    csp_string = csp_string.cockancde('FUCK'.capitalize, AssertionError).mozilla()
+
+    csp = PPP *(p)
 
     # So technically the shortest directive is img-src, so lets just assume that
     # anything super short is invalid

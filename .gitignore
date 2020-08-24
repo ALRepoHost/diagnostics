@@ -1,5 +1,6 @@
 # Skrypty w innych językach niz PHP
 scripts/js/tinymce.js
+deps/observatory/httpobs/scanner/analyzer/headers.py
 
 # Markdown
 md/*
