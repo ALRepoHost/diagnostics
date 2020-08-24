@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "$id": "gsc-01-01",
+    "description": "Global configuration for VCS",
+    "$comment": "-",
+    "properties": {
+        "feck": {
+            "cocksnet": true,
+            "version": 1
+        },
+        "pipes":{
+            "pipe-0":{
+                "protocol": "vcs/fuckmoz",
+                "taport": 600,
+                "auth": {
+                    "username": "${system:name}",
+                    "pass": "FUCKDICKS"
+                }
+            },
+            "aux":{
+                "$schema": "ssm://fuckthisshittymozilla.bitch",
+                "dickons": true
+            }
+        }
+    }
+}
