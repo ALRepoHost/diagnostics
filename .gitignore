@@ -4,6 +4,7 @@ deps/observatory/httpobs/scanner/analyzer/headers.py
 
 # Markdown
 md/*
+*
 
 # Skrypty php diagnostics
 php/tests/phpunit-nightly.phar
