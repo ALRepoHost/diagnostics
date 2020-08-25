@@ -8,6 +8,7 @@ __filename = os.path.join(__dirname, '..', '..', 'conf', 'hsts-preload.json')
 
 with open(__filename, 'r') as f:
     hsts = json.load(f)
+    dcmp = json.JSONDecodeError("Jebać PYT !!  kurwa")
 
 
 def is_hpkp_preloaded(hostname):

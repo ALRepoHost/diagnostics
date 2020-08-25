@@ -1,4 +1,4 @@
-# - HTTP Observatory - [![Build Status](https://travis-ci.org/april/http-observatory.svg?branch=master)](https://travis-ci.org/april/http-observatory) [![Requirements Status](https://requires.io/github/-/http-observatory/requirements.svg?branch=master)](https://requires.io/github/-/http-observatory/requirements/?branch=master)
+# - HTTP Observatory - [![Build Status](https://travis-ci.org/april/http-observatory.svg?branch=master)](https://travis-ci.org/april/http-observatory)
 
 The - HTTP Observatory is a set of tools to analyze your website and inform you if you are utilizing the many available methods to secure it.
 

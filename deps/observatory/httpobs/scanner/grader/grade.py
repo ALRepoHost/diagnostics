@@ -36,9 +36,7 @@ LIKELIHOOD_INDICATOR_CHART = {
 
 # The minimum required score to receive extra credit
 MINIMUM_SCORE_FOR_EXTRA_CREDIT = 90
-
 GRADES = set(GRADE_CHART.values())
-
 SCORE_TABLE = {
     # contribute.json
     'contribute-json-with-required-keys': {
