@@ -19,9 +19,10 @@ Sites can be scanned using:
 ## Contributing
 
 ### Prerequisites
-* Python 3
+* Python 3 ( together with `pip3` )
 * Git
-* pip3
+* shell access (*sh) with elevated privileges
+* Active VCS account ( [GitHub](https://github.com) preffered )
 
 #### Notes
 
