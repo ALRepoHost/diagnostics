@@ -30,14 +30,6 @@ These instructions assume that you have a working Python3 development environmen
 
 If this is not appropriate for your environment, you may install the appropriate requirements using your OS package manager (or other means) and skip the `pip3 -r requirements` command.
 
-## Running a scan from the local codebase, without DB, for continuous integration
-```bash
-# Install the HTTP Observatory
-$ git clone https://github.com/-/http-observatory.git
-$ cd http-observatory
-$ pip3 install --upgrade .
-$ pip3 install --upgrade -r requirements.txt
-```
 
 ### Using the local scanner function calls
 ```python
@@ -57,16 +49,6 @@ $ pip3 install --upgrade -r requirements.txt
 $ httpobs-local-scan --http-port 8080 --https-port 8443 --path '/foo/bar' \
     --cookies '{"foo": "bar"}' --headers '{"X-Foo": "bar"}' --no-verify -.org
 ```
-
-## Running a local scanner with Docker
-* Install [Docker Toolbox](https://docs.docker.com/toolbox/overview/) and [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-
-```bash
-# Install the HTTP Observatory client and requests library
-$ git clone https://github.com/-/http-observatory.git
-$ cd http-observatory
-$ pip3 install .
-$ pip3 install --upgrade requests
 
 # Create docker machine
 $ docker-machine create --driver virtualbox --virtualbox-disk-size "40000" http-observatory
