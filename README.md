@@ -14,4 +14,4 @@ Pomysłodawcą oraz głównym wykonawcą ( koderem ) projektu jest **wlisikpl (d
 W chwili obecnej nie jest dostępna zadna forma crowdfundingowa jednak są one w planach.
 
 ## Prawa autorskie oraz licencja
-Całość projektu jest wydawana na zmodyfikowanej licecji BSD.
+Całość projektu jest wydawana na zmodyfikowanej licecji BSD. Krótko: **wszystkim wolno wszystko**
